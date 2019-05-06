@@ -228,6 +228,7 @@ export default {
 }
 
 .filler-object {
+    min-height: 100px;
     display: block;
     overflow-x: auto;
     padding: 0.5em;
