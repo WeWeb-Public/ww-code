@@ -127,8 +127,8 @@ export default {
                             key: 'languageStyle',
                             valueData: 'languageStyle',
                             desc: {
-                                en: 'Exp: css, dockerfile, http, html, javascript, json, php, sql, scss, typescript',
-                                fr: 'Ex: css, dockerfile, http, html, javascript, json, php, sql, scss, typescript'
+                                en: 'Exp: html, css, javascript, json, shell, dockerfile, http, php, sql, scss, typescript',
+                                fr: 'Ex: html, css, javascript, json, shell, dockerfile, http, php, sql, scss, typescript'
                             }
                             //https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html list of all PL that are handeled by highlight
                         },
@@ -244,6 +244,7 @@ pre code.hljs.bash::before,
 pre code.hljs.sql::before,
 pre code.hljs.scss::before,
 pre code.hljs.typescript::before,
+pre code.hljs.shell::before,
 pre code.hljs.http::before,
 pre code.hljs.php::before {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -284,6 +285,9 @@ pre code.hljs.php::before {
 }
 pre code.hljs.typescript::before {
     content: "Ts";
+}
+pre code.hljs.shell::before {
+    content: "Shell";
 }
 pre code.hljs.http::before {
     content: "HTTP";
