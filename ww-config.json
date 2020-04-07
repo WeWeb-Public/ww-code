@@ -6,12 +6,12 @@
 	},
 	"upsales": {
 		"wwAnalytics": {
-			"click": "false"
+			"click": false
 		}
 	},
 	"cmsOptions": {
 		"wwObjectHover": {
-			"pointerEvents": "true"
+			"pointerEvents": true
 		},
 		"wwObjectMenu": {
 			"items": [
