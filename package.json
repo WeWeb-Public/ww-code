@@ -19,7 +19,7 @@
 		"vue-highlightjs": "^1.3.3"
 	},
 	"devDependencies": {
-		"weweb-client": "^1.1.0"
+		"weweb-client": "^1.1.1"
 	},
 	"browserslist": [
 		"> 1%",
