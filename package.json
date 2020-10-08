@@ -1,29 +1,29 @@
 {
 	"name": "ww-code",
 	"type": "wwObject",
-	"wewebPublic": "true",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WeWeb-Public/ww-code"
+		"url": "https://github.com/weweb-assets/ww-code"
 	},
-	"version": "0.0.1",
-	"private": true,
+	"version": "1.0.0",
 	"scripts": {
 		"build": "weweb-build",
-		"serve": "weweb-serve",
+		"serve": "yarn weweb serve",
 		"create-config": "weweb-config"
 	},
 	"dependencies": {
 		"highlight.js": "^9.15.6",
-		"vue": "^2.6.11",
+		"vue": "^2.6.12",
 		"vue-highlightjs": "^1.3.3"
 	},
 	"devDependencies": {
-		"weweb-client": "latest"
-	},
-	"browserslist": [
-		"> 1%",
-		"last 2 versions",
-		"not ie <= 8"
-	]
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"@weweb/cli": "latest",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.10.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-vue": "^7.0.1",
+		"prettier": "^2.1.2"
+	}
 }

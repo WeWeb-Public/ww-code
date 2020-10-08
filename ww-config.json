@@ -1,30 +1,25 @@
 {
-	"componentPath": "./src/wwObjectCode.vue",
-	"content": {
-		"type": "ww-code",
-		"data": {}
-	},
-	"upsales": {
-		"wwAnalytics": {
-			"click": false
-		}
-	},
-	"cmsOptions": {
-		"wwObjectHover": {
-			"pointerEvents": true
-		},
-		"wwObjectMenu": {
-			"items": [
-				{
-					"name": "OPTIONS",
-					"text": {
-						"en": "Options",
-						"fr": "Options"
-					},
-					"icon": "wwi wwi-edit-other",
-					"action": "edit"
-				}
-			]
-		}
-	}
+  "componentPath": "./src/wwObject.vue",
+  "editor": {
+    "label": {
+      "en": "ww-code",
+      "fr": "ww-code"
+    },
+    "editElementMenu": {
+      "disable": false,
+      "items": [
+        {
+          "label": { "en": "Options", "fr": "Options" },
+          "icon": "config",
+          "action": "setOptions",
+          "menu": [
+            {
+              "label": { "en": "Options", "fr": "Options" },
+              "action": "setOptions"
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
